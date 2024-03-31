@@ -3,7 +3,7 @@
 
 Xiaoyu Liu, Miaomiao Cai, Yinda Chen, Yueyi Zhang, Te Shi, Ruobing Zhang, Xuejin Chen, Zhiwei Xiong* 
 
-MoE Key Laboratory of Brain-inspired Intelligent Perception and Cognition, University of Science and Technology of China
+University of Science and Technology of China
 
 *Corresponding Author
 
