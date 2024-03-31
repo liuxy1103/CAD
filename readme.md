@@ -1,5 +1,5 @@
-# Learning Cross-Representation Affinity Consistency for Sparsely Supervised Biomedical Instance Segmentation
-**Accepted by ICCV-2023**
+# Cross-dimension Affinity Distillation for 3D EM Neuron Segmentation
+**Accepted by CVPR-2024**
 
 Xiaoyu Liu, Miaomiao Cai, Yinda Chen, Yueyi Zhang, Te Shi, Ruobing Zhang, Xuejin Chen, Zhiwei Xiong* 
 
