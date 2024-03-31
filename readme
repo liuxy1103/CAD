@@ -1,1 +1,30 @@
-CVPR2024
+# Learning Cross-Representation Affinity Consistency for Sparsely Supervised Biomedical Instance Segmentation
+**Accepted by ICCV-2023**
+
+Xiaoyu Liu, Miaomiao Cai, Yinda Chen, Yueyi Zhang, Te Shi, Ruobing Zhang, Xuejin Chen, Zhiwei Xiong* 
+
+MoE Key Laboratory of Brain-inspired Intelligent Perception and Cognition, University of Science and Technology of China
+Institute of Artificial Intelligence, Hefei Comprehensive National Science Center, Hefei, China
+Suzhou Institute of Biomedical Engineering and Technology, Chinese Academy of Sciences
+
+*Corresponding Author
+
+
+## Enviromenent
+
+This code was tested with Pytorch 1.0.1 (later versions may work), CUDA 9.0, Python 3.7.4 and Ubuntu 16.04. 
+
+If you have a [Docker](https://www.docker.com/) environment, we strongly recommend you to pull our image as follows：
+
+```shell
+docker pull registry.cn-hangzhou.aliyuncs.com/renwu527/auto-emseg:v3.1
+```
+
+
+
+
+
+## Contact
+
+If you have any problem with the released code and dataset, please contact me by email (liuxyu@mail.ustc.edu.cn).
+
