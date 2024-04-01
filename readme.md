@@ -29,19 +29,10 @@ Positioned in layer VI of the cortical layers within the allocortex, the Wafer4 
 
 For ease of access and utilization by the research community, we will provide a comprehensive description of the Wafer4 dataset along with a link for accessing it in the updated paper. We anticipate that this unique dataset will serve as a valuable resource for advancing research in neural circuitry, cortical organization, and computational neuroscience.
 
-
-## The code for the Wafer4 dataset will be released soon on GitHub.
-
-
-
-
-
-
-
 We release the [Wafer4](https://drive.google.com/drive/folders/1QsMc71wWDozitktVDXSvZtu5OEP2JT5y?usp=drive_link) dataset in Google Driver.
 
 
-
+## The code will be released soon on GitHub.
 
 
 
