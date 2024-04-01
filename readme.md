@@ -32,7 +32,7 @@ For ease of access and utilization by the research community, we will provide a 
 We release the [Wafer4](https://drive.google.com/drive/folders/1QsMc71wWDozitktVDXSvZtu5OEP2JT5y?usp=drive_link) dataset in Google Driver.
 
 
-## The code will be released soon on GitHub.
+## The code will be released soon ！
 
 
 
