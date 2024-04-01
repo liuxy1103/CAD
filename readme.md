@@ -18,6 +18,13 @@ If you have a [Docker](https://www.docker.com/) environment, we strongly recomme
 docker pull registry.cn-hangzhou.aliyuncs.com/renwu527/auto-emseg:v3.1
 ```
 
+## Wafer4 Dataset
+
+
+We release the [Wafer4]([https://www.docker.com/](https://drive.google.com/drive/folders/1QsMc71wWDozitktVDXSvZtu5OEP2JT5y?usp=drive_link)) dataset in Google Driver.
+
+
+
 
 
 
