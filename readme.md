@@ -19,15 +19,7 @@ docker pull registry.cn-hangzhou.aliyuncs.com/renwu527/auto-emseg:v3.1
 ```
 
 ## Wafer4 Dataset
-We introduce the Wafer4 dataset, a new electron microscopy (EM) neuron segmentation dataset collected from a region of the mouse medial entorhinal cortex. Utilizing Multi-Beam-SEM technology, the dataset is imaged at an impressive resolution of $8\times8\times35$ nm, providing intricate details of neural structures.
-
-Comprising a volumetric size of $125\times1250\times1250$ voxels, the Wafer4 dataset offers fine-grained voxel-level annotations for over $1.9\times10^8$ voxels. This level of granularity enables precise segmentation of neural components, facilitating detailed analyses of neuronal morphology and connectivity patterns. This dataset is divided into 100 sections for training and 25 sections for testing
-
-Notably, the Wafer4 dataset stands out due to its focus on the allocortex, a cerebral cortex region occupying a smaller area (10%) compared to the neocortex. While existing datasets primarily target the neocortex, particularly the somatosensory cortex, the Wafer4 dataset fills a crucial gap by providing insights into the allocortical region.
-
-Positioned in layer VI of the cortical layers within the allocortex, the Wafer4 dataset captures neural structures in a deeper layer, offering unique perspectives on cortical organization and function. Layer VI's distinct location within the cortex and its potential associations with specific brain functions make it an intriguing area for exploration and analysis.
-
-For ease of access and utilization by the research community, we will provide a comprehensive description of the Wafer4 dataset along with a link for accessing it in the updated paper. We anticipate that this unique dataset will serve as a valuable resource for advancing research in neural circuitry, cortical organization, and computational neuroscience.
+We have created the Wafer4 dataset, a novel electron microscopy (EM) dataset for neuronal segmentation, sourced from the mouse olfactory cortex region. Utilizing Multi-Beam-SEM technology, the dataset offers ultra-high-resolution imaging at 8x8x35 nanometers, showcasing intricate details of neuronal structures. The Wafer4 dataset comprises 125x1250x1250 voxels, providing finely annotated voxel-level instance segmentation for over 190 million voxels, facilitating precise segmentation of neuronal instances and aiding in detailed analysis of neuronal morphology and connectivity patterns. The dataset is divided into 100 sections for training and 25 sections for testing. Furthermore, the uniqueness of the Wafer4 dataset lies in its focus on the allocation cortex region, occupying a relatively small area (10%) of the brain cortex. By addressing the existing data gap concerning the allocation cortex, the Wafer4 dataset offers insights into this specific cortical region. Situated in layer VI of the cortex, the Wafer4 dataset captures deeper neuronal structures, providing a unique perspective on cortical organization and function.
 
 We release the [Wafer4](https://drive.google.com/drive/folders/1QsMc71wWDozitktVDXSvZtu5OEP2JT5y?usp=drive_link) dataset in Google Driver.
 
