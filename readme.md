@@ -31,6 +31,8 @@ For ease of access and utilization by the research community, we will provide a 
 
 We release the [Wafer4](https://drive.google.com/drive/folders/1QsMc71wWDozitktVDXSvZtu5OEP2JT5y?usp=drive_link) dataset in Google Driver.
 
+MEC Wafer4 is licensed under a CC-BY-NC 4.0 International [License](https://creativecommons.org/licenses/by-nc/4.0/legalcode). 
+
 
 ## The code will be released soon ！
 
