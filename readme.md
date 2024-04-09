@@ -43,3 +43,10 @@ We release the [Wafer4](https://drive.google.com/drive/folders/1QsMc71wWDozitktV
 
 If you have any problem with the released code and dataset, please contact me by email (liuxyu@mail.ustc.edu.cn).
 
+## Citation
+```shell
+@inproceedings{liu2023soma,
+  title={Cross-dimension Affinity Distillation for 3D EM Neuron Segmentation},
+  author={Liu, Xiaoyu and Cai, Miaomiao and Chen, Yinda and Zhang, Yueyi and Shi, Te and Zhang, Ruobing and Chen, Xuejin and Xiong, Zhiwei},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2024}
