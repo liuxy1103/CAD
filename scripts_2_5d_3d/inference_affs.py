@@ -37,8 +37,7 @@ warnings.filterwarnings("ignore")
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('-c', '--cfg', type=str, default='2d_bs16_ps256_loss1.0_slice1.0_cross1.0', help='path to config file')
-    parser.add_argument('-mn', '--model_name', type=str, default='2023-10-23--15-01-45_2d_bs16_ps256_loss0.0_slice1.0_cross1.0_interaction10.0_3d_z16_h160_noft_lr_ratio1_ft10000')
-    parser.add_argument('-id', '--model_id', type=int, default=121000)
+    parser.add_argument('-mn', '--model_name', type=str, default='wafer4')
     parser.add_argument('-m', '--mode', type=str, default='wafer4')
     parser.add_argument('-ts', '--test_split', type=int, default=20)
     parser.add_argument('-pm', '--pixel_metric', action='store_true', default=False)
@@ -64,7 +63,7 @@ if __name__ == "__main__":
     out_path = os.path.join('../inference', trained_model, args.mode)
     if not os.path.exists(out_path):
         os.makedirs(out_path)
-    img_folder = 'affs_'+str(args.model_id)
+    img_folder = 'affs_'+ trained_model
     out_affs = os.path.join(out_path, img_folder)
     if not os.path.exists(out_affs):
         os.makedirs(out_affs)
@@ -76,7 +75,7 @@ if __name__ == "__main__":
                         filter_channel=cfg.MODEL.filter_channel,
                         sig=cfg.MODEL.if_sigmoid).to(device)
 
-    ckpt_path = os.path.join('../models', trained_model, 'model-%06d.ckpt' % args.model_id)
+    ckpt_path = os.path.join('../ckpt', trained_model + '.ckpt')
     checkpoint = torch.load(ckpt_path)
 
     new_state_dict = OrderedDict()
@@ -252,10 +251,10 @@ if __name__ == "__main__":
         ###################################################
         malis = 0.0
         ###################################################
-        print('model-%d, valid-loss=%.6f, MSE-loss=%.6f, BCE-loss=%.6f, ARAND-loss=%.6f, F1-bound=%.6f, mAP=%.6f, auc=%.6f, malis-loss=%.6f' % \
-            (args.model_id, epoch_loss, whole_mse, whole_bce, whole_arand, whole_arand_bound, whole_map, whole_auc, malis))
-        f_txt.write('model-%d, valid-loss=%.6f, MSE-loss=%.6f, BCE-loss=%.6f, ARAND-loss=%.6f, F1-bound=%.6f, mAP=%.6f, auc=%.6f, malis-loss=%.6f' % \
-                    (args.model_id, epoch_loss, whole_mse, whole_bce, whole_arand, whole_arand_bound, whole_map, whole_auc, malis))
+        print('valid-loss=%.6f, MSE-loss=%.6f, BCE-loss=%.6f, ARAND-loss=%.6f, F1-bound=%.6f, mAP=%.6f, auc=%.6f, malis-loss=%.6f' % \
+            (epoch_loss, whole_mse, whole_bce, whole_arand, whole_arand_bound, whole_map, whole_auc, malis))
+        f_txt.write('valid-loss=%.6f, MSE-loss=%.6f, BCE-loss=%.6f, ARAND-loss=%.6f, F1-bound=%.6f, mAP=%.6f, auc=%.6f, malis-loss=%.6f' % \
+                    (epoch_loss, whole_mse, whole_bce, whole_arand, whole_arand_bound, whole_map, whole_auc, malis))
         f_txt.write('\n')
     else:
         output_affs_prop = output_affs
