@@ -31,6 +31,7 @@ We release the [Wafer4](https://drive.google.com/drive/folders/1QsMc71wWDozitktV
 Take the training on the wafer4 dataset as an example.
 
 ```shell
+cd scripts
 python main_ema.py -c=seg_snemi3d_d5_1024_u200_ema
 ```
 
