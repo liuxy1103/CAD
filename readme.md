@@ -42,6 +42,8 @@ Take the training on the wafer4 dataset as an example.
 ```shell
 cd scripts
 python inference_affs.py --cfg=2d_wafer4_bs16_ps256_loss0.0_slice1.0_cross1.0_interaction1.0 --model_name=wafer4 --mode=wafer4 --test_split=25
+```
+
 
 ## Contact
 
