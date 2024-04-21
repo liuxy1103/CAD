@@ -26,9 +26,15 @@ We release the [Wafer4](https://drive.google.com/drive/folders/1QsMc71wWDozitktV
 **MEC Wafer4 is licensed under a CC-BY-NC 4.0 International [License](https://creativecommons.org/licenses/by-nc/4.0/legalcode)**. 
 
 
-## The code will be released soon ！
+## Training stage
 
+Take the training on the wafer4 dataset as an example.
 
+```shell
+python main_ema.py -c=seg_snemi3d_d5_1024_u200_ema
+```
+
+## Inference stage
 
 
 ## Contact
