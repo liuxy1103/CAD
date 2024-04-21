@@ -32,7 +32,7 @@ Take the training on the wafer4 dataset as an example.
 
 ```shell
 cd scripts
-python main_ema.py -c=seg_snemi3d_d5_1024_u200_ema
+python main_CAD.py --cfg=2d_wafer4_bs16_ps256_loss0.0_slice1.0_cross1.0_interaction1.0 --cfg_3d=3d_wafer4_h160_noft_lr_ratio1_ft10000
 ```
 
 ## Inference stage
