@@ -51,7 +51,7 @@ If you have any problem with the released code and dataset, please contact me by
 
 ## Citation
 ```shell
-@inproceedings{liu2023soma,
+@inproceedings{liu2024cad,
   title={Cross-dimension Affinity Distillation for 3D EM Neuron Segmentation},
   author={Liu, Xiaoyu and Cai, Miaomiao and Chen, Yinda and Zhang, Yueyi and Shi, Te and Zhang, Ruobing and Chen, Xuejin and Xiong, Zhiwei},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
