@@ -31,7 +31,7 @@ We release the [Wafer4](https://drive.google.com/drive/folders/1QsMc71wWDozitktV
 Take the training on the wafer4 dataset as an example.
 
 ```shell
-cd scripts
+cd scripts_2_5d_3d
 python main_CAD.py --cfg=2d_wafer4_bs16_ps256_loss0.0_slice1.0_cross1.0_interaction1.0 --cfg_3d=3d_wafer4_h160_noft_lr_ratio1_ft10000
 ```
 
@@ -40,7 +40,7 @@ We provide the trained models in the folder 'ckpt'
 
 Take the training on the wafer4 dataset as an example.
 ```shell
-cd scripts
+cd scripts_2_5d_3d
 python inference_affs.py --cfg=2d_wafer4_bs16_ps256_loss0.0_slice1.0_cross1.0_interaction1.0 --model_name=wafer4 --mode=wafer4 --test_split=25
 ```
 
