@@ -15,7 +15,7 @@ This code was tested with Pytorch 1.0.1 (later versions may work), CUDA 9.0, Pyt
 If you have a [Docker](https://www.docker.com/) environment, we strongly recommend you to pull our image as follows：
 
 ```shell
-docker pull registry.cn-hangzhou.aliyuncs.com/renwu527/auto-emseg:v3.1
+docker pull registry.cn-hangzhou.aliyuncs.com/em_seg/v54_higra:9.1
 ```
 
 ## Wafer4 Dataset
